@@ -5,65 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSE-BATCH-2021</title>
-  <style>
-    body {
-      background-color: wheat;
-    }
-
-    @media screen and (max-width:600px) {
-      body {
-        background-color: wheat;
-      }
-
-
-    }
-  </style>
-  <style>
-    .dropbtn {
-      background-color: black;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-    }
-    
-    .dropbtn:hover, .dropbtn:focus {
-      background-color: #470121;
-    }
-    
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      overflow: auto;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-    
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-    
-    .dropdown a:hover {background-color: #ddd;}
-    
-    .show {display: block;}
-    </style>
+  <title>cse-batch-2021</title>
+ <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <p <hr>
+<hr>
+  <p>
     <img src="https://bgsbu.ac.in/public/assets/frontend/img/logofinal.png" alt="image" height="120">
 
     <hr>
@@ -89,11 +37,19 @@
     and this bears an eloquent testimony to our efforts.</p>
   <img src="https://www.bgsbu.ac.in/btechdcs/CS.jpeg" alt="image" height="280">
   <img src="https://www.bgsbu.ac.in/public/assets/img/Mgmnt.jpg" alt="image" height="280">
-  <h2 style="color:red">select your semester from below and check your syllabus </h2>
+  <h3>select your semester from below and check your syllabus </h3>
   <hr>
   <hr>
+
+
+
+
+
+
+
+
   <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">CLICK HERE</button>
+    <button onclick="myFunction()" class="dropbtn">click here</button>
     <div id="myDropdown" class="dropdown-content">
       <a href="semester1.html">semester 1</a>
       <a href="semester2.html">semester 2</a>
@@ -105,33 +61,25 @@
       <a href="semester8.html">semester 8</a>
     </div>
   </div>
-  
-  
-  <script>
-    /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-    
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
-      }
-    }
-    </script>
-    
 
-  <h2 style="color:brown">Department Of Computer Science & Engineering (2021 batch)</h2>
+  <h2>Department Of Computer Science & Engineering (2021 batch)</h2>
+
+
+
+<hr>
+
+
+  <h2>student details </h2>
+  <div class="dropdow">
+    <button onclick="myFun()" class="dropbtn2">click here</button>
+    <div id="myDropdow" class="dropdow-content">
+      <a href="detail.html">CSE BATCH 2021</a>
+    </div>
+  </div>
+
+
   <hr>
+
 
   <p style="color:black">
     <img
@@ -142,10 +90,13 @@
      <br>
     BABA GHULAM SHAH BADSHAH UNIVERSITY  Rajouri (J&K)<br>
     CONTACT DETAILS<br>
-    PHONE NUMBER:6005387136<br>
+    phone number:6005387136<br>
     <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
-      LINKEDIN</a><br>
+      linkedin</a><br>
   </p>
+
+
+
 
   <p style="color: black;">
     <img
@@ -155,18 +106,18 @@
       <strong>DEAN <br>OWAIS TOHEED JATT </strong> 
     <br>
       COLLEGE 0F ENGINEERING AND TECHNOLOGY BGSB University, Rajouri (J&K)<br>
-    CONTACT DETAILS<br>
+    contact details<br>
     PHONE NUMBER: 8494034423<br>
-    <a href="https://www.instagram.com/_owais_toheed/?igshid=1vorp1702fa2h"> INSTAGRAM</a><br>
+    <a href="https://www.instagram.com/_owais_toheed/?igshid=1vorp1702fa2h"> instagram</a><br>
   </p>
-
   </p>
   <hr>
   <hr>
+  <script src="script.js"></script>
 </body>
 <footer>
   <hr>
- <h1>  <strong>Feedback</strong></h1>
+ <h3>  <strong>Feedback</strong></h3>
  <p>&#128512</p>
   
   First Name : <INPUT type="text" name="firstname" placeholder="Enter name here">
