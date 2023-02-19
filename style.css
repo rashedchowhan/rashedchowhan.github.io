@@ -99,7 +99,7 @@ body {
 
 
  body {
-  background: linear-gradient(to right,#9c27b0,#8ecdff);
+   background-image: url('sam.jpg');
  }
 
  @media screen and (max-width:600px) {
