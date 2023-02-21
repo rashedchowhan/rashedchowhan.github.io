@@ -2,11 +2,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .navbar {
-  border-radius: 20px;
+  border-radius: 15px;
   background: linear-gradient(to right, #090979,#00d4ff);
- 
 }
 
 nav 
@@ -28,7 +26,7 @@ nav
 
  margin: 0px 50px;
  border-radius: 10px;
- font-size: 18px;
+ font-size: 45px;
 }
 
 .home-button:hover {
@@ -43,7 +41,7 @@ nav
   border: none;
   padding: 4px 30px;
   margin: 10px 15px;
-  font-size: 18px;
+  font-size: 45px;
   cursor: pointer;
   text-decoration: none;
   border-radius: 10px;
@@ -62,7 +60,7 @@ nav
 {
   color: rgb(252, 251, 251);
   background-color: black;
-  font-size: 18px;
+  font-size: 45px;
   border: none;
   text-decoration: none;
   padding: 4px 12px;
@@ -87,7 +85,7 @@ a {
 
 
 .syllbus-button {
-  font-size: 18px;  
+  font-size: 45px;  
   border: none;
   outline: none;
   color: rgb(255, 251, 251);
@@ -249,7 +247,7 @@ a {
 
 
 body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+* {box-sizing:content-box;}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -272,32 +270,14 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: hsl(97, 96%, 51%);
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #ed1313;
   padding: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
