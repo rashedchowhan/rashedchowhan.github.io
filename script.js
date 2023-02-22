@@ -1,7 +1,7 @@
 
 var img = document.getElementById('img');
 
-var slides=['sam.jpg ','nasa.jpg', 'image1.jfif.jpg','image2.jfif.jpg', 'image3.jfif.jpg', 'image4.jfif.jpg', 'image5.jfif.jpg','image6.jfif.jpg','image19.jfif.jpg'];
+var slides=[' images/sam.jpg ','nasa.jpg', ' images/image1.jfif.jpg',' images/image2.jfif.jpg', ' images/image3.jfif.jpg', ' images/image4.jfif.jpg', ' images/image5.jfif.jpg','images/ image6.jfif.jpg,',' images/image19.jfif.jpg'];
 
 var Start=0;
 
