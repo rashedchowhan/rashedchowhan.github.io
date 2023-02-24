@@ -5,8 +5,9 @@ body {
 
 .navbar {
   border-radius: 20px;
-  background: linear-gradient(to right, red,gold);
+  background: linear-gradient(to right,red,gold);
   padding: 30px;
+  font-weight: 200;
  
 }
 
