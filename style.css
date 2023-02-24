@@ -6,6 +6,7 @@ body {
 .navbar {
   border-radius: 20px;
   background: linear-gradient(to right, #090979,#00d4ff);
+  padding: 20px;
  
 }
 
@@ -298,8 +299,8 @@ img{
   height:100%;
 }
 .abc{
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 600px;
 }
 .ac{
   width: 756px;
@@ -311,7 +312,8 @@ img{
 
 .hero
 {
-  background: linear-gradient(to right,pink,blue);
+  background: linear-gradient(to right,blue,green);
+  text-align: center;
 }
 
 
@@ -320,7 +322,16 @@ img{
 
 
 
+.rashed{
 
+  border: 50px black;
+    border-radius: 5ch;
+    background: linear-gradient(to right,red,gold);
+    padding: 50px;
+    margin:10px 5px 5px 10px ;
+    width:300px
+    fit-content
+}
 
 
 
