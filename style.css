@@ -328,6 +328,7 @@ img{
   border: 50px black;
     border-radius: 5ch;
     background: linear-gradient(to right,red,gold);
+    color: black;
     padding: 50px;
     margin:10px 5px 5px 10px ;
     width:300px
@@ -336,7 +337,10 @@ img{
 
 
 
-
+.stylrbar1{
+  background-color: palevioletred;
+  border-radius: 5px;
+}
 
 
 
