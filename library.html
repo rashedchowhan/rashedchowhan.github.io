@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>library website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <img src="image.jpg" alt="a beautiful image" width="500" height="300" border="2"> -->
+</head>
+
+<body>
+	<!-- <img src="image.jpg" alt="a beautiful image"> -->
+
+	<backend class="php"></backend>
+	<header>
+		<h1>ONLINE LIBRARY, SOET<//h1>
+		<h4>Baba Ghulam shah Badshah university, Rajouri</h4>
+		<!-- <nav> -->
+			<!-- <ul>
+				<li><a href="">Home</a></li>
+				<li><a href="#">Search Catalog</a></li>
+				<li><a href="#">My Account</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul> -->
+		<!-- </nav> -->
+	</header>
+
+	<main>
+		<h2>Request Reissue of Book</h2>
+		<form action="https://formspree.io/f/mqkoqpyz"
+		method="POST">
+			<label for="book-title">Book Title:</label>
+			<input type="text" id="book-title" name="book-title" required><br>
+
+			<label for="book-author">Book Author:</label>
+			<input type="text" id="book-author" name="book-author" required><br>
+
+			<label for="book-isbn">ISBN:</label>
+			<input type="text" id="book-isbn" name="book-isbn" required><br>
+
+			<label for="user-name">Your Name:</label>
+			<input type="text" id="user-name" name="user-name" required><br>
+
+			<label for="user-department">Your department:</label>
+			<input type="text" id="user-department" name="user-department" required><br>
+
+			<label for="user-roll-no">Your roll-no:</label>
+			<input type="text" id="user-roll-no" name="user-roll-no" required><br>
+
+			<label for="reissue-date">Reissue Date:</label>
+			<input type="date" id="reissue-date" name="reissue-date" required><br>
+
+			<input type="submit" value="Request Reissue">
+			<input type="reset" value="Reset Form">
+		</form>
+	</main>
+
+	<footer>
+		<p>&copy; created by ossama zaidi</p>
+	</footer>
+</body>
+
+</html>
