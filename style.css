@@ -352,4 +352,13 @@ img{
 
 
 
+.feedback{
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border: none;
+  text-decoration: none;
+  padding: 50px;
+  border-radius: 5px;
+}
 
